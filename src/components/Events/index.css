@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.main-container {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+.event-container {
+  background-color: #323f4b;
+  background-size: cover;
+}

@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+  margin: 5px;
+}
+.pic {
+  height: 200px;
+  width: 250px;
+  border-radius: 6px;
+}
+.name {
+  font-size: medium;
+  color: black;
+  font-family: 'Roboto';
+}
+.location {
+  font-size: 14px;
+  font-family: 'cambria';
+  color: red;
+}

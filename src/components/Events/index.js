@@ -58,7 +58,8 @@ class Events extends Component {
   state = {eventItemList: eventsList}
 
   buttonClicked = registrationStatus => {
-    eventsList.filter(
+    const {eventItemList} = this.state
+    eventItemList.find(
       eachItem => eachItem.registrationStatus === registrationStatus,
     )
   }
